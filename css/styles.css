@@ -12,6 +12,7 @@ html {
 }
 
 .navegacion {
+  position: fixed;
   font-size: 10px;
   color: #dad9d9;
   background-color: #121212;
@@ -20,6 +21,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 .contenedor-logo-nav {
   margin: 0 2rem 8px 0;
@@ -79,17 +81,16 @@ li:hover {
 
 .ip-pro {
   background-image: url(..//assets/iphone\ 15\ pro.jpg);
-  height: inherit;
+  height: 100vh;
   width: inherit;
   background-repeat: no-repeat;
   bottom: 0;
   left: 0;
-  position: absolute;
+  position: static;
   right: 0;
   top: 40px;
   background-position: top;
   background-size: cover;
-  z-index: -1;
   display: flex;
   flex-direction: column;
 }
@@ -100,12 +101,44 @@ li:hover {
   font-size: 30px;
   font-weight: 20000;
 }
-.contenedor1 > h3,
-a {
+.contenedor1 > h3 {
   font-size: 25px;
   font-weight: 100;
 }
 .contenedor1 > a {
+  color: #2997ff;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+}
+.ip-normal {
+  background-image: url(..//assets/ipgone\ 15.jpg);
+  height: 100vh;
+  width: inherit;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+
+  right: 0;
+  top: 40px;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor2 {
+  color: black;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 20000;
+}
+.contenedor2 > h3 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.contenedor2 > a {
+  color: #2997ff;
   font-size: 18px;
   font-weight: 100;
   text-decoration: none;

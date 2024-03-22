@@ -1,0 +1,112 @@
+html {
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.navegacion {
+  font-size: 10px;
+  color: #dad9d9;
+  background-color: #121212;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-logo-nav {
+  margin: 0 2rem 8px 0;
+  width: 12px;
+  height: 13px;
+}
+img {
+  max-width: 100%;
+}
+.lista-nav {
+  display: flex;
+  align-items: center;
+}
+.acordeon-nav {
+  list-style: none;
+  cursor: pointer;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  transition: all 0.3s ease 0s;
+}
+
+li:hover {
+  color: white;
+}
+.sub-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  list-style: none;
+  background-color: #434344;
+  width: 100%;
+  height: 70vh;
+  display: none;
+  position: absolute;
+  margin-top: 1vw;
+  padding: 2rem;
+}
+
+.sub-lista > li {
+  width: 500px;
+  color: white;
+  padding-left: 1rem;
+  font-size: 25px;
+  gap: 5rem;
+  transform: translateX(-20px);
+  background-color: transparent;
+}
+.parrafo-acordeon {
+  padding: 10px 0 10px 0;
+}
+.sub-lista > li:hover {
+  color: white;
+}
+
+.acordeon-nav:hover > .sub-lista {
+  display: block;
+}
+
+.ip-pro {
+  background-image: url(..//assets/iphone\ 15\ pro.jpg);
+  height: inherit;
+  width: inherit;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor1 {
+  color: white;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 20000;
+}
+.contenedor1 > h3,
+a {
+  font-size: 25px;
+  font-weight: 100;
+}
+.contenedor1 > a {
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+}

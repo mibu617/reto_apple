@@ -81,6 +81,7 @@ li:hover {
 }
 
 .ip-pro {
+  padding-top: 4rem;
   background-image: url(..//assets/iphone\ 15\ pro.jpg);
   height: 100vh;
   width: inherit;
@@ -100,16 +101,16 @@ li:hover {
   padding-top: 2.5rem;
   text-align: center;
   font-size: 30px;
-  font-weight: 20000;
+  font-weight: 50;
 }
 .contenedor1 > h3 {
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .contenedor1 > a {
   color: #2997ff;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
 }
 .ip-normal {
@@ -132,16 +133,16 @@ li:hover {
   padding-top: 2.5rem;
   text-align: center;
   font-size: 30px;
-  font-weight: 200;
+  font-weight: 100;
 }
 .contenedor2 > h3 {
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .contenedor2 > a {
   color: #2997ff;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
 }
 .applewatch {
@@ -163,16 +164,26 @@ li:hover {
   color: white;
   padding-top: 2.5rem;
   text-align: center;
-  font-size: 30px;
-  font-weight: 20000;
 }
 .contenedor3 > h3 {
   font-size: 25px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .contenedor3 > a {
   color: #2997ff;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
+}
+@media only screen and (max-width: 735px) {
+  .ip-pro {
+    display: block;
+    background-image: url("..//assets/iphone\ 15\ pro\ respon.jpg");
+  }
+  .ip-normal {
+    background-image: url(..//assets/ipgone\ 15\ respon.jpg);
+  }
+  .applewatch {
+    background-image: url(..//assets/apple\ watch\ respon.jpg);
+  }
 }

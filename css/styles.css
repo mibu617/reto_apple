@@ -204,6 +204,81 @@ li:hover {
   font-weight: 300;
   text-decoration: none;
 }
+.grid_productos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.mac_air {
+  margin: 8px;
+  background-image: url(..//assets/promo_macbook_air_m3_.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.ipad {
+  margin: 10px;
+  background-image: url(..//assets/promo_ipad__fi.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.airpods {
+  margin: 10px;
+  background-image: url(..//assets/promo_airpods_pr.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.mac_pro {
+  margin: 10px;
+  background-image: url(..//assets/promo_mbp__ek.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.watch {
+  margin: 10px;
+  background-image: url(..//assets/promo_apple_watch_.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.ipad_pro {
+  margin: 10px;
+  background-image: url(..//assets/promo_ipadpro.jpg);
+  height: 80vh;
+  width: 47vw;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.logo_m2 {
+  padding-top: 5px;
+}
 @media only screen and (max-width: 735px) {
   .ip-pro {
     display: block;
@@ -215,6 +290,10 @@ li:hover {
   .applewatch {
     background-image: url(..//assets/apple\ watch\ respon.jpg);
   }
+  .contenedor-logo-nav {
+    width: 15px;
+    height: 15px;
+  }
   .navegacion {
     justify-content: space-around;
   }
@@ -225,11 +304,11 @@ li:hover {
     display: none;
   }
   .lista-nav-responsive {
-    display: block;
+    display: none;
     position: sticky;
   }
   h2 {
-    font-size: 25px;
+    font-size: 55px;
   }
   h3 {
     font-size: 10px;

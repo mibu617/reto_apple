@@ -280,6 +280,25 @@ li:hover {
 .logo_m2 {
   padding-top: 5px;
 }
+footer {
+  height: 80vh;
+  margin: 20px 150px 20px 150px;
+  list-style: none;
+}
+.sec-footer1 {
+  border-bottom: 1px;
+  border-color: silver;
+}
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-footer > div {
+  padding: 30px;
+}
+
 @media only screen and (max-width: 735px) {
   .ip-pro {
     display: block;

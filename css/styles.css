@@ -281,12 +281,14 @@ li:hover {
   padding-top: 5px;
 }
 footer {
+  color: #6c6c6c;
+  background-color: #f5f5f7;
   height: 80vh;
-  margin: 20px 150px 20px 150px;
+  padding: 20px 200px 20px 200px;
   list-style: none;
 }
 .sec-footer1 {
-  border-bottom: 1px;
+  border-bottom: 2px;
   border-color: silver;
 }
 .nav-footer {
@@ -297,6 +299,9 @@ footer {
 }
 .nav-footer > div {
   padding: 30px;
+}
+.nav-footer > div > div > span {
+  color: #1e1e1e;
 }
 
 @media only screen and (max-width: 735px) {
